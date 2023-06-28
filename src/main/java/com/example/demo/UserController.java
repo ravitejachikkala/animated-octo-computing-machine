@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping
     public String demo() {
-        return "Hello Mahesh";
+        return "Welcome, the application successfully deployed to EC2 by using Github-actions CICD.";
     }
 }
